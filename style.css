@@ -74,7 +74,7 @@ font-size: 2rem;
 .hamburger-menu {
     position: relative;
     display: inline-block;
-    border: solid 1px green;
+    //border: solid 1px green;
 }
 .hamburger-icon {
     display: flex;
@@ -90,7 +90,6 @@ font-size: 2rem;
     height: 2px;
     background-color: black;
     transition:  all 0.3 ease-in-out;
-    border: solid 1px red;
 }
 
 .menu-links {
@@ -103,4 +102,41 @@ font-size: 2rem;
     overflow: hidden;
     transition:  all 0.3 ease-in-out;
     
+}
+
+.menu-links a {
+    display: block;
+    padding: 10px;
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.3 ease-in-out
+}
+
+.menu-links li {
+    list-style: none;
+}
+
+.menu-links.open {
+    max-height: 300px;
+}
+
+.hamburger-icon.open span:first-child {
+    transform: rotate(45deg) translate(10px, 5px);
+}
+.hamburger-icon.open span:nth-child(2) {
+    opacity: 0;
+}
+.hamburger-icon.open span:last-child {
+    transform: rotate(-45deg) translate(10px,-5px);
+}
+.hamburger-icon span:first-child {
+    transform: none;
+}
+.hamburger-icon span:nth-child(2) {
+    opacity: 1;
+}
+.hamburger-icon span:last-child {
+    transform: none;
 }
