@@ -140,3 +140,76 @@ font-size: 2rem;
 .hamburger-icon span:last-child {
     transform: none;
 }
+
+/* SECTION */
+
+section {
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    border: solid 1px red;
+    min-height: fit-content;
+}
+
+/* .section-container{
+    display: flex;
+    border: solid 1px blue;
+} */
+
+#profile {
+    display: flex;
+    border: solid 1px green;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+    box-sizing: border-box;
+}
+
+/* PROFILE SELECTION */
+
+.section__pic-container {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0
+}
+
+#profile__pic {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.section__text{
+text-align: center;
+align-items: center;
+border: 1px solid black;
+}
+
+.section__text__p1 {
+    text-align: center;
+}
+.section__text__p2{
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+.title{
+    font-size: 3rem;
+    text-align: center;
+}
+
+#social-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+/* ICONS */
+
+.icon {
+    cursor: pointer;
+    height: 2rem;
+}
