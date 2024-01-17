@@ -107,6 +107,10 @@
     .text-container {
       text-align: justify;
     }
-    
+    #about-text{
+      font-size: medium;
+      justify-self: center;
+    }
+  }
 
   
