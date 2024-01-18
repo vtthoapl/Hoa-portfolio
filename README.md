@@ -1,6 +1,5 @@
 
-# This is a responsive website is done with : html, css, Javascripts
+# This is my porfolio - responsive website using html, css, Javascripts
 
-# deployment's link : 
+# demo link: https://hoavu-portfolio.netlify.app
 
-https://sensational-medovik-c36cbc.netlify.app/
