@@ -8,4 +8,3 @@ function toggleMenu() {
       console.error("Menu or icon not found");
     }
   }
-  
